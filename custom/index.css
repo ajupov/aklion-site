@@ -1,6 +1,5 @@
 ﻿.al-main {
     background: url('../assets/background-image.png') black repeat;
-    height: 100%;
     padding-top: 96px;
 }
 .al-main-container {
@@ -114,12 +113,12 @@ background: #2e9419;
     margin: 0 auto;
 }
 .al-green {
-    background: url('../assets/inner-conteainer-space-image.png') no-repeat content-box 100% 100%;
+    background: url('../assets/inner-conteainer-space-image-green.png') no-repeat content-box 100% 100%;
     height: 48px;
     background-size: cover;
     width: 100%;
 }
-.al-green p {
+.al-green p, .al-red p {
     color: #ffffff;
     font-size: 1.4em;
     margin-left: 15px;
@@ -128,10 +127,11 @@ background: #2e9419;
 .al-green-space {
     background-color: #E6F6B5;
     padding: 12px 15px;
+    margin-bottom: 0;
 }
 .al-green-item {
     width: 31.6882143% !important;
-    height: 400px;
+    height: 410px;
     margin-left: 8px !important;
     margin-right: 8px !important;
     cursor: pointer;
@@ -227,4 +227,17 @@ background: #2e9419;
 }
 .al-btn-wraper {
     margin-left: 15px !important;
+}
+
+.al-red {
+    background: url('../assets/inner-conteainer-space-image-red.png') no-repeat content-box 100% 100%;
+    height: 48px;
+    background-size: cover;
+    width: 100%;
+}
+
+.al-red-space {
+    background-color: #F3E3C1;
+    padding: 12px 15px;
+    margin-bottom: 0;
 }
