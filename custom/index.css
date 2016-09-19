@@ -1,0 +1,230 @@
+﻿.al-main {
+    background: url('../assets/background-image.png') black repeat;
+    height: 100%;
+    padding-top: 96px;
+}
+.al-main-container {
+    width: 82.5%;
+    padding-top: 42px;
+    background-color: #ffffff;
+}
+.al-slider-card {
+    margin: 0;
+}
+#al-slider-left {
+    height: 400px;
+    width: 34%;
+    background-color: #392C24;
+    text-align: center;
+}
+.al-slider-brand {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin: 0;
+ }
+.al-slider-free {
+    color: #ffffff;
+    font-size: 1.4em;
+    margin: 0;
+ }
+.al-slider-from {
+    color: #ffffff;
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: -10px;
+ }
+.al-slider-a {
+    padding-top: 4px;
+    width: 180px;
+    height: 40px;
+    color: #988173;
+    border: solid #988173 2px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 1.25em;
+    margin-top: 4px;
+ }
+.al-slider-a:hover {
+    padding-top: 4px;
+    width: 180px;
+    height: 40px;
+    color: #7EBC3C;
+    border: solid #7EBC3C 2px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 1.25em;
+    margin-top: 4px;
+ }
+.al-slider-wraper {
+    min-width: 1114px;
+}
+.slider {
+     z-index: 9;
+     width: 66%;
+     height: 400px;
+     overflow: hidden;
+     position: relative;
+ }
+.slider ul, .slider li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.slider ul {
+width: 9999px; 
+}
+.slider ul li {
+    list-style-type: none;
+    float: left;
+    width: 736px;
+    height: 400px;
+}
+.slider .nav {
+    position: absolute;
+    left: 15px;
+    bottom: 12px; 
+}
+.slider .nav span {
+    opacity: 0.9;
+    background: #fff;
+    margin: 0 8px 0 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    float: left;
+    box-shadow: 0 1px 2px #000;
+}
+.slider .nav span.on {
+background: #2e9419;
+}
+.al-divider {
+    background-color: #B41500;
+    height: 20px;
+    width: 100%;
+}
+
+.al-inner-container {
+    width: 90%;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.al-green {
+    background: url('../assets/inner-conteainer-space-image.png') no-repeat content-box 100% 100%;
+    height: 48px;
+    background-size: cover;
+    width: 100%;
+}
+.al-green p {
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-left: 15px;
+    font-weight: 500;
+}
+.al-green-space {
+    background-color: #E6F6B5;
+    padding: 12px 15px;
+}
+.al-green-item {
+    width: 31.6882143% !important;
+    height: 400px;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+    cursor: pointer;
+    padding-top: 20px !important;
+}
+.al-green-item-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.al-green-item-text {
+    line-height: 120%;
+    color: #707070;
+    font-size: 0.8em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.al-mark-red {
+    background: url('../assets/mark_red.png') content-box no-repeat;
+    background-size: contain;
+    height: 48px;
+    width: 46px;
+    margin-top: -26px;
+    margin-left: 10px;
+}
+.al-mark-red p {
+    padding: 4px;
+    font-size: 1em;
+    font-weight: 400;
+    color: #ffffff;
+}
+.al-star-icon {
+    color: #FF8A00;
+    font-size: 2.2em;
+    font-weight: bold;
+ }
+
+.al-item-weight {
+    font-size: 0.65em;
+    color: #7D7D7D;
+}
+
+.al-item-cost {
+    font-size: 1em;
+    color: #B41500;
+    font-weight: 600;
+}
+.al-item-bottom {
+    padding-left: 4px !important;
+    padding-right: 0 !important;
+}
+.no-margin {
+    margin: 0 !important;
+}
+.al-item-weight-wraper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+    text-align: left;
+}
+.al-item-cost-wraper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+}
+.al-item-add-btn{
+    background: url(../assets/cart-covered.png) #7DBA3B no-repeat 50% 50%;
+    /*background-size: contain;*/
+    width: 48px;
+    height: 48px;
+    background-size: 32px;
+}
+.al-item-add-btn:hover{
+    background: url(../assets/cart.png) #7DBA3B no-repeat 50% 50%;
+    /*background-size: contain;*/
+    width: 48px;
+    height: 48px;
+    background-size: 32px;
+}
+.no-pading {
+    padding: 0 !important;
+}
+
+.al-add-icon {
+    color: #7DBA3B;
+}
+
+.al-add-icon-wraper {
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+.al-btn-wraper {
+    margin-left: 15px !important;
+}

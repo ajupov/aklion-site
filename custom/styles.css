@@ -1,3 +1,12 @@
+.al-navbar {
+    line-height: 23.625px;
+    top: 0;
+}
+
+.al-navbar-fixed {
+    height: 0;
+}
+
 .al-navbar{
 	background-color: #404040;
 	height: 32px;
@@ -67,7 +76,6 @@ ul li a:hover {
 }
 
 .al-after-nav-one {
-    margin-top: 32px;
     display: inline-block;
     background: #000000;
     width: 100%;
@@ -165,7 +173,7 @@ ul li a:hover {
     color: #ffffff;
     font-size: 1.85em;
     margin-left: 10px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 #al-cart-checkout {
     width: 56px;
@@ -241,7 +249,6 @@ display: inline-flex;
     padding-left: 10px;
    color: #7EBC3C;
 }
-
 .al-col-1 a img{
     width: 32px;
     height: 32px;
