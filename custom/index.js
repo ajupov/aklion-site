@@ -1,25 +1,52 @@
+var showedAllCallouts = false;
+
 $(document).ready(function () {
-    $(".slider").each(function () { // обрабатываем каждый слайдер
-        var obj = $(this);
-        $(obj).append("<div class='nav'></div>");
-        $(obj).find("li").each(function () {
-            $(obj).find(".nav").append("<span rel='" + $(this).index() + "'></span>"); // добавляем блок навигации
-            $(this).addClass("slider" + $(this).index());
-        });
-        $(obj).find("span").first().addClass("on"); // делаем активным первый элемент меню
-    });
+    initResizes();
+    initSliderAnchorClick();
+    initShowAllCalloutsButton();
 });
-function sliderJS(obj, sl) { // slider function
-    var ul = $(sl).find("ul"); // находим блок
-    var bl = $(sl).find("li.slider" + obj); // находим любой из элементов блока
-    var step = $(bl).width(); // ширина объекта
-    $(ul).animate({ marginLeft: "-" + step * obj }, 500); // 500 это скорость перемотки
+
+$(window).resize(function () {
+    initResizes();
+});
+
+function initResizes() {
+    if (screen.width <= 600) {
+        $('#al-slider-wrapper').removeClass('valign-wrapper');
+        $('#al-reviews-title').css('padding-top', 36);
+    } else {
+        $('#al-slider-wrapper').addClass('valign-wrapper');
+        $('#al-reviews-title').css('padding-top', 24);
+    }
+
+    $('.carousel.carousel-slider').carousel({ full_width: true });
 }
-$(document).on("click", ".slider .nav span", function () { // slider click navigate
-    var sl = $(this).closest(".slider"); // находим, в каком блоке был клик
-    $(sl).find("span").removeClass("on"); // убираем активный элемент
-    $(this).addClass("on"); // делаем активным текущий
-    var obj = $(this).attr("rel"); // узнаем его номер
-    sliderJS(obj, sl); // слайдим
-    return false;
-});
+
+function initSliderAnchorClick() {
+    var offset = 64;
+
+    $('#al-slider-anchor').click(function () {
+        var destination = $('.al-green').offset().top - 100 - (screen.width > 600 ? offset : 0);
+        $('body').animate({ scrollTop: destination }, 1000);
+        return false;
+    });
+}
+
+function initShowAllCalloutsButton() {
+    $('#al-show-all-callouts').click(function () {
+        if (!showedAllCallouts) {
+            $('.al-callout-hidden').show();
+            var destination = $(this).offset().top;
+            $('body').animate({ scrollTop: destination }, 1000);
+            $(this).text('РЎРљР Р«РўР¬ РћРўР—Р«Р’Р«');
+            showedAllCallouts = true;
+        } else {
+            $('.al-callout-hidden').hide(1000);
+            $(this).text('РџРћРЎРњРћРўР Р•РўР¬ Р’РЎР• РћРўР—Р«Р’Р«');
+            showedAllCallouts = false;
+
+        }
+
+        return false;
+    });
+}
