@@ -1,9 +1,16 @@
 <div class="navbar-fixed">
     <nav>
         <div class="center-align hide-on-med-and-up">
-            <a href="/">
-                <img src="/assets/logo-small.png" id="al-logo-small" alt="Аклион">
-            </a>
+            <div class="row">
+            <div class="col s1">
+                <? include('partials/hamburger-menu.php'); ?>
+            </div>
+            <div class="col s10">
+                <a href="/">
+                    <img src="/assets/logo-small.png" id="al-logo-small" alt="Аклион">
+                </a>
+            </div>
+        </div>
         </div>
         <div id="al-nav-1" class="hide-on-small-and-down">
             <div class="container">

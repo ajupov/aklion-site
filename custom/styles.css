@@ -36,6 +36,31 @@ nav ul a {
     }
 }
 
+#al-hamburger-menu-anchor {
+    font-size: 2rem;
+    line-height: 36px;
+}
+#al-hamburger-menu {
+    width: 100%;
+    text-align: left;
+}
+.al-collection-item {
+    height: 56px !important;
+}
+.al-collection-item span{
+    line-height: 2.5rem;
+    position: absolute;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    color: #7dba3b;
+}
+.al-collection-item-fontable {
+    line-height: 2.5rem;
+    margin-right: 5px;
+    font-size: 2.5rem !important;
+    color: #7dba3b;
+}
+
 .al-offset-l{
     width: 17%;
 }
