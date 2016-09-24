@@ -1,0 +1,230 @@
+.al-no-hmargin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.al-no-vmargin {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.al-no-hpadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.al-no-hpadding {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+nav {
+    top: 0;
+    background-color: #404040;
+    height: 36px;
+    line-height: 36px;
+}
+nav ul a {
+    font-size: 0.85rem;
+}
+.navbar-fixed {
+    height: 79px;
+}
+.container {
+    width: 82.5%;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+#al-hamburger-menu-anchor {
+    font-size: 2rem;
+    line-height: 36px;
+}
+#al-hamburger-menu {
+    width: 75%;
+    text-align: left;
+}
+.al-collection-item {
+    height: 56px !important;
+}
+.al-collection-item span{
+    line-height: 2.5rem;
+    position: absolute;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    color: #7dba3b;
+}
+.al-collection-item-fontable {
+    line-height: 2.5rem;
+    margin-right: 5px;
+    font-size: 2.5rem !important;
+    color: #7dba3b;
+}
+
+.al-offset-l{
+    width: 17%;
+}
+.al-offset-m{
+    width: 23%;
+}
+.al-mobile-button-collapse i{
+	line-height: 32px !important;
+}
+.al-container-additional-1 {
+    width: 65%;
+}
+
+#al-logo {
+    width: 11%;
+    position: relative;
+    z-index: 10;
+}
+#al-logo-small {
+    height: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+#al-nav-1-left {
+    position: fixed;
+    display: inline-flex;
+    width: 50%;
+}
+#al-nav-1-left li {
+    display: table;
+    -moz-min-width: 20%;
+    -ms-min-width: 20%;
+    -o-min-width: 20%;
+    -webkit-min-width: 20%;
+    min-width: 20%;
+    text-align: center;
+}
+#al-nav-1-right {
+    height: 36px;
+}
+#al-nav-1-right a {
+    margin-left: 5px;
+}
+#al-nav-1-right a i{
+    line-height: 24px;
+}
+
+.al-circle {
+    color: #404040;
+	background: #ffffff;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    -ms-border-radius: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+.al-circle:hover {
+	color: #404040;
+	background: #7ebc3c;
+}
+
+#al-login {
+    height: 36px;
+}
+#al-login:hover {
+    color: #7ebc3c;
+}
+
+#al-nav-2 {
+    width: 100%;
+    position: absolute;
+    top: 36px;
+}
+#al-nav-2 .container {
+    height: 64px;
+}
+
+#al-time {
+    -moz-min-width: 10%;
+    -ms-min-width: 10%;
+    -o-min-width: 10%;
+    -webkit-min-width: 10%;
+    min-width: 10%;
+}
+#al-time-label {
+    font-size: 0.9rem;
+}
+#al-time-value {
+    font-size: 1.1rem;
+}
+
+#al-phone-image {
+    height: 65%;
+}
+#al-phone-value {
+    font-weight: 500;
+}
+#al-phone-value:hover {
+    color: #7ebc3c;
+}
+
+#al-call-back {
+    border: solid #ffffff 3px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 12px;
+    height: 100%;
+    font-size: 0.65rem;
+}
+#al-call-back:hover {
+	color: #404040;
+    background: #7ebc3c;
+}
+
+#al-cart {
+    background-color: #b41500;
+    -ms-border-bottom-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    -ms-border-bottom-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-top: 14px;
+    margin-left: 14px;
+    height: 78px;
+    z-index: 1;
+}
+#al-cart-image {
+    background: url('/assets/images/cart.png') no-repeat;
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+#al-cart-image:hover {
+    background: url('/assets/images/cart-covered.png') no-repeat;
+}
+#al-cart-checkout {
+    border: solid #ffffff;
+    width: 52px;
+    height: 52px;
+    -ms-border-radius: 26px;
+    border-radius: 26px;
+    font-size: 0.55rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 12px;
+}
+#al-cart-checkout:hover {
+    background: #7ebc3c;
+}
+
+#al-nav-3 {
+    background-color: #404040;
+    width: 100%;
+    position: absolute;
+    height: 64px;
+    top: 100px;
+}
+#al-nav-3-items-wrapper {
+    height: 100%;
+}
+#al-nav-3-items-wrapper div a img {
+    height: 50%;
+}
+#al-nav-3-items-wrapper div a span {
+    padding-left: 5px;
+}

@@ -1,7 +1,7 @@
 <?
-    include('PriceList.php');
-    include('PriceListSpecies.php');
-    include('Callout.php');
+    include('/temp/PriceList.php');
+    include('/temp/PriceListSpecies.php');
+    include('/temp/Callout.php');
 
     $species1 = new PriceListSpecies();
     $species1->price = 450;
