@@ -28,7 +28,7 @@
         </div>
     </div>
 </div>
-<div id="al-gradient-info" class="row">
+<div id="al-gradient-info" class="row al-no-vmargin">
     <div class="container">
         <div id="al-gradient-background" class="white-text center-align">
             <p id="al-gradient-top-text">Компания «AKLION» доставляет традиционные блюда итальянской и японской кухни по Пензе.</h5>

@@ -4,7 +4,11 @@
 .al-empty-divider {
     height: 63px;   
 }
-
+@media only screen and (max-width: 600px) {
+    .al-empty-divider {
+        height: 0;
+    }
+}
 #al-slider-wrapper {
     background-color: #392c24;
 }
@@ -17,7 +21,7 @@
 #al-slider-from {
     font-weight: 500;
     font-size: 2.5rem;
- }
+ }main
 #al-slider-anchor {
     margin-top: 10px;
     -moz-min-width: 70%;

@@ -10,7 +10,7 @@
     <body>
         <? include('partials/header.php'); ?>
         <main>
-            <div class="al-empty-divider hide-on-small-only"></div>
+            <div class="al-empty-divider"></div>
             <div class="white container z-depth-3">
                 <? include('partials/slider.php'); ?>
                 <div class="al-red-divider"></div>
@@ -25,4 +25,5 @@
             <? include('partials/info.php'); ?>
         </main>
     </body>
+    <? include('partials/footer.php'); ?>
 </html>
