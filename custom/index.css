@@ -185,8 +185,6 @@
 #al-reviews {
     background-color: #f3e3c1;
     margin-top: -48px;
-    z-index: -1;
-    width: 100%;
 }
 #al-reviews div {
     text-align: center;
@@ -256,4 +254,73 @@
     #al-callout-add-anchor {
         margin-top: 0;
     }
+}
+
+#al-red-info {
+    background: url(/assets/space-image-red.png) no-repeat;
+    height: 86px;
+    width: 100%;
+    z-index: 0;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: absolute;
+}
+
+#al-dear-friends {
+    background-color: #392c26;
+    -ms-border-bottom-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    -ms-border-bottom-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 120px;
+}
+#al-dear-friends-text-1 {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+#al-dear-friends-text-2 {
+    margin-top: 0;
+    font-size: 0.9rem;
+}
+.al-dear-friends-item-image {
+    height: 1.5rem;
+    padding-left: 10px;
+}
+.al-dear-friends-item-value {
+    color: #ffffff;
+}
+.al-dear-friends-item-value:hover {
+    color: #7ebc3c;
+}
+
+#al-gradient-info {
+    background: #ffffff;
+}
+#al-gradient-background {
+    width: 100%;
+    margin-top: 86px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    z-index: -1;
+    background: 
+        linear-gradient(#3d3d3d, transparent 10%, transparent 90%, #3d3d3d),
+        repeating-linear-gradient(-45deg, #7a7a7a, #7a7a7a 5px, #706f6d 5px, #706f6d 10px)
+}
+#al-gradient-top-text {
+    font-size: 1.2rem;
+    line-height: 1rem;
+    -ms-text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px black;
+}
+.al-gradient-inner-text{
+    color: #eeeeee;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    -ms-text-shadow: 2px 1px 2px black;
+    text-shadow: 2px 1px 2px black;
+}
+#al-gradient-bottom-text {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    text-shadow: 0px 1px 2px black;
 }

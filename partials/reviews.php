@@ -29,7 +29,7 @@
                 <a href="#" id="al-callout-add-anchor" class="center-align">ОСТАВИТЬ ОТЗЫВ</a>
             </div>
         </div>
-        <div class="row">
+        <div class="row al-no-vmargin">
             <a href="" id="al-show-all-callouts">ПОСМОТРЕТЬ ВСЕ ОТЗЫВЫ</a>
         </div>
     </div>

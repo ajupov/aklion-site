@@ -22,6 +22,7 @@
             </div>
             <? include('partials/why.php'); ?>
             <? include('partials/reviews.php'); ?>
+            <? include('partials/info.php'); ?>
         </main>
     </body>
 </html>
