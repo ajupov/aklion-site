@@ -3,8 +3,6 @@
         <? include('/partial-views/layout/includes.php'); ?>
         <? include('/temp/Container.php'); ?>
         <? include('/engine/templater.php'); ?>
-        <link rel="stylesheet" href="/assets/styles/index.css"/>
-        <script src="/assets/scripts/index.js"></script>
         <title>Заказ пиццы, суши</title>
     </head>
     <body>
@@ -23,6 +21,7 @@
             <? include('/partial-views/index/why.php'); ?>
             <? include('/partial-views/index/reviews.php'); ?>
             <? include('/partial-views/index/info.php'); ?>
+            <? include('/partial-views/price/price-modal.php'); ?>
         </main>
     </body>
     <? include('/partial-views/layout/footer.php'); ?>

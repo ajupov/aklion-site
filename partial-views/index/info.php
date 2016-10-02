@@ -31,7 +31,7 @@
 <div id="al-gradient-info" class="row al-no-vmargin">
     <div class="container">
         <div id="al-gradient-background" class="white-text center-align">
-            <p id="al-gradient-top-text">Компания «AKLION» доставляет традиционные блюда итальянской и японской кухни по Пензе.</h5>
+            <p id="al-gradient-top-text">Компания «AKLION» доставляет традиционные блюда итальянской и японской кухни по Пензе.</p>
             <p class="al-gradient-inner-text">
                 Вы можете заказать доставку пиццы, пасты, салатов, суши, роллов и других блюд на дом или в офис в удобное время и место.
                 <br>

@@ -1,6 +1,6 @@
 <div class="row al-item-wrapper al-no-vmargin">
     <img src="/assets/images/price-images/<? echo $image; ?>" alt="<? echo $image; ?>" class="responsive-img">
-    <h6 class="center-align al-item-title"><? echo $name ?></h5>
+    <h6 class="center-align al-item-title"><? echo $name ?></h6>
     <p class="center-align al-item-text"><? echo $text ?></p>
     <span class="al-item-star-icon">
         <?

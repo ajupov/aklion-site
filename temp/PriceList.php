@@ -1,6 +1,7 @@
 <?   
     class PriceList
     {
+        public $id;
         public $type;
         public $name;
         public $text;

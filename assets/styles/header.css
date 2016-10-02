@@ -228,3 +228,10 @@ nav ul a {
 #al-nav-3-items-wrapper div a span {
     padding-left: 5px;
 }
+
+.al-hoverable{
+    color: #ffffff;
+}
+.al-hoverable:hover{
+    color: #7ebc3c;
+}

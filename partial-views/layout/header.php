@@ -19,19 +19,19 @@
                 </a>
                 <ul id="al-nav-1-left" class="left hide-on-small-and-down">
                     <li>
-                        <a href="#">О нас</a>
+                        <a href="/about.php" class="al-hoverable">О нас</a>
                     </li>
                     <li>
-                        <a href="#">Условия оплаты и доставки</a>
+                        <a href="/conditions.php" class="al-hoverable">Условия оплаты и доставки</a>
                     </li>
                     <li>
-                        <a href="#">Акции</a>
+                        <a href="/shares.php" class="al-hoverable">Акции</a>
                     </li>
                     <li>
-                        <a href="#">Вакансии</a>
+                        <a href="/vacancies.php" class="al-hoverable">Вакансии</a>
                     </li>
                     <li>
-                        <a href="#">Оферты</a>
+                        <a href="offer.php" class="al-hoverable">Оферты</a>
                     </li>
                 </ul>
                 <div id="al-nav-1-right" class="right hide-on-med-and-down valign-wrapper">
@@ -60,14 +60,14 @@
                     <h6 id="al-time-label" class="white-text center-align">Часы работы:</h6>
                     <h6 id="al-time-value" class="white-text center-align">10:00-00:00</h6>
                 </div>
-                <div class="col l3 m6 s6 al-no-hpadding">
-                    <a href="tel:22-66-22">
+                <div class="col l3 m6 s6 offset-l1 al-no-hpadding">
+                    <a href="tel:303-414">
                         <div class="row valign-wrapper al-no-vmargin">
                             <div class="col l2 m3 al-no-hpadding">
                                 <img id="al-phone-image" src="/assets/images/phone.png" alt="Телефон">
                             </div>
                             <div class="col l10 m9 valign al-no-hpadding">
-                                <h5 id="al-phone-value">22-66-22, 22-66-99</h5>
+                                <h5 id="al-phone-value">303-414</h5>
                             </div>
                         </div>
                     </a>
@@ -77,7 +77,7 @@
                 </div>
                 <div id="al-cart" class="col l4 m4 hide-on-small-and-down valign-wrapper">
                     <div class="row al-no-vmargin valign-wrapper">
-                        <div class="col l1 m2">
+                        <div class="col l2 m2">
                             <a id="al-cart-image" href="#"></a>
                         </div>
                         <div class="col l3 m6 valign center-align">
@@ -86,10 +86,10 @@
 
                         <div class="col l2 m5 valign-wrapper">
                             <div id="al-cart-checkout" class="valign-wrapper">
-                                <a href="#">ОФОРМИТЬ ЗАКАЗ</a>
+                                <a href="/cart.php">ОФОРМИТЬ ЗАКАЗ</a>
                             </div>
                         </div>
-                        <div class="col l6 m4 hide-on-med-and-down">
+                        <div class="col l5 m4 hide-on-med-and-down">
                             <img id="al-cart-payment-systems-image" class="responsive-img right" src="/assets/images/visa-and-mastercard-logo.png" alt="Платежные системы">
                         </div>
                     </div>
@@ -100,43 +100,43 @@
             <div class="">
                 <div id="al-nav-3-items-wrapper" class="row valign-wrapper container al-container-additional-1">
                     <div class="col l2 m2 s6 al-no-hpadding">
-                        <a href="#" class="valign-wrapper">
+                        <a href="/pizza.php" class="valign-wrapper al-hoverable">
                             <img src="/assets/images/price-icons/pizza_ico.png" alt="Пицца"/>
                             <span>Пицца</span>
                         </a>
                     </div>
                     <div class="col l2 m2 s6 al-no-hpadding">
-                        <a href="#" class="valign-wrapper">
+                        <a href="/rolls.php" class="valign-wrapper al-hoverable">
                             <img src="/assets/images/price-icons/roll_ico.png" alt="Роллы"/>
                             <span>Роллы</span>
                         </a>
                     </div>
                     <div class="col l2 m2 s6 al-no-hpadding">
-                        <a href="#" class="valign-wrapper">
+                        <a href="/sushi.php" class="valign-wrapper al-hoverable">
                             <img src="/assets/images/price-icons/pizza_ico.png" alt="Суши"/>
                             <span>Суши</span>
                         </a>
                     </div>
                     <div class="col l2 m2 s6 al-no-hpadding">
-                        <a href="#" class="valign-wrapper">
+                        <a href="/sets.php" class="valign-wrapper al-hoverable">
                             <img src="/assets/images/price-icons/set_ico.png" alt="Сеты"/>
                             <span>Сеты</span>
                         </a>
                     </div>
                     <div class="col l2 m2 s6 al-no-hpadding">
-                        <a href="#" class="valign-wrapper">
+                        <a href="/woks.php" class="valign-wrapper al-hoverable">
                             <img src="/assets/images/price-icons/vok_ico.png" alt="Вок"/>
                             <span>Вок</span>
                         </a>
                     </div>
                     <div class="col l2 m2 s6 al-no-hpadding">
-                        <a href="#" class="valign-wrapper">
+                        <a href="/salads.php" class="valign-wrapper al-hoverable">
                             <img src="/assets/images/price-icons/salat_ico.png" alt="Салаты"/>
                             <span>Салаты</span>
                         </a>
                     </div>
                     <div class="col l2 m2 s6 al-no-hpadding">
-                        <a href="#" class="valign-wrapper">
+                        <a href="/freshs.php" class="valign-wrapper al-hoverable">
                             <img src="/assets/images/price-icons/fresh_ico.png" alt="Напитки"/>
                             <span>Напитки</span>
                         </a>
