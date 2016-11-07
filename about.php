@@ -1,22 +1,32 @@
-<html>
-<head>
-    <? include('/partial-views/layout/includes.php'); ?>
-    <link rel="stylesheet" href="/assets/styles/info-pages.css"/>
-    <title>О нас</title>
-</head>
-<body>
-<? include('/partial-views/layout/header.php'); ?>
-<main>
-    <div class="al-empty-divider"></div>
-    <div class="white container z-depth-3">
-        <div class="al-transparent-divider"></div>
-        <div class="al-red-divider"></div>
-        <div class="container al-inner-container">
-            <? include('/partial-views/about/about-inner.php'); ?>
-        </div>
-        <div class="al-red-divider"></div>
-    </div>
-</main>
-</body>
-<? include('/partial-views/layout/footer.php'); ?>
-</html>
+<?
+/*
+ * @package aklion
+ *
+ * Template Name: About
+ */
+?>
+
+<? get_header(); ?>
+		<main>
+			<div class="white container z-depth-3">
+				<div class="al-red-divider"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col l12 m12 s10 offset-s1">
+							<h5>О нас</h5>
+							<p class="al-info-page-p">Компания «AKLION» занимается доставкой традиционных блюд японской, китайской, итальянской кухни в Пензе.</p>
+							<p class="al-info-page-p">«AKLION» – это служба доставки нежных суши и роллов, горячей пиццы, изысканной пасты, модной лапши в коробочке wok и многого другого по привлекательным ценам!</p>
+							<p class="al-info-page-p">Компания «AKLION» работает с 11:00 до 23:00 (Пн-Чт) и с 11:00 до 00:00 (Пт-Вс), чтобы в любое время радовать Вас вкусными блюдами. Вы можете сделать заказ через сайт или по телефону, операторы компании быстро отправят запрос – и любимое блюдо будет у Вас дома или в офисе через час!</p>
+							<p class="al-info-page-p">Мы стремимся к тому, чтобы заказ и доставка суши и пиццы в нашей компании оставили только позитивные впечатления у каждого нашего клиента.</p>
+							<p class="al-info-page-p">Блюда японской, паназиатской и итальянской кухни готовятся командой профессиональных поваров-сушистов исключительно из качественных и свежих продуктов. </p>
+							<p class="al-info-page-p">Меню в «AKLION» очень разнообразно: суши с рыбой, курицей, икрой или морепродуктами; крим-суши с начинками на выбор; красиво оформленные роллы, наборы ассорти. Супы – мисо, шпинатный, борщ, сырный с угрем, сливочный с лососем или грибной; горячее – удон и тяхан (с говядиной, курицей, овощами, лососем).</p>
+							<p class="al-info-page-p">Поклонники пиццы также с легкостью смогут найти себе блюдо по вкусу. К доставке предлагаются итальянская и американская пицца на тонком и пышном тесте с разнообразными начинками, такими как рыба, курица, морепродукты, ветчина, грибы, сыр (пармезан, эмменталь, чеддер, дор-блю, моцарелла) и овощи.</p>
+							<p class="al-info-page-p">Оформить заказ можно онлайн или по телефону.</p>
+							<p class="al-info-page-p">«AKLION» – заказ и бесплатная доставка суши, роллов, пицца, лапши в коробочках на дом и в офис. Тел.: <a href="tel:303-414"><b class="black-text">303-414</b></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="al-red-divider"></div>
+			</div>
+		</main>
+<? get_footer(); ?>

@@ -3,7 +3,7 @@
  *
  * @package aklion
  *
- * Template Name: Sushi
+ * Template Name: Snack
 */
 ?>
 
@@ -12,12 +12,12 @@
 			<div class="white container z-depth-3">
 				<div class="al-red-divider"></div>
 				<div class="container al-inner-container">
-					<div class="al-orange valign-wrapper">
-						<h5 class="valign white-text">Суши</h5>
+					<div class="al-yellow valign-wrapper">
+						<h5 class="valign white-text">Закуски</h5>
 					</div>
-					<div id="al-orange-space" class="row al-no-hmargin al-no-vmargin">
+					<div id="al-yellow-space" class="row al-no-hmargin al-no-vmargin">
 						<?
-							get_template_part_ex('/partials/items', array('category' => 'sushi'));
+							get_template_part_ex('/partials/items', array('category' => 'snack'));
 						?>
 					</div>
 				</div>

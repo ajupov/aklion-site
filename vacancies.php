@@ -1,22 +1,22 @@
-<html>
-<head>
-    <? include('/partial-views/layout/includes.php'); ?>
-    <link rel="stylesheet" href="/assets/styles/info-pages.css"/>
-    <title>О нас</title>
-</head>
-<body>
-<? include('/partial-views/layout/header.php'); ?>
+<?
+/*
+ * @package aklion
+ *
+ * Template Name: Vacancies
+ */
+?>
+
+<? get_header();?>
 <main>
-    <div class="al-empty-divider"></div>
     <div class="white container z-depth-3">
-        <div class="al-transparent-divider"></div>
         <div class="al-red-divider"></div>
-        <div class="container al-inner-container">
-            <? include('/partial-views/vacancies/vacancies-inner.php'); ?>
+        <div class="container inner-container">
+            <div class="row al-no-hmargin">
+				<h5>Вакансии</h5>
+				<h5 class="grey-text">На данный момент вакансий нет</h5>
+			</div>
         </div>
         <div class="al-red-divider"></div>
     </div>
 </main>
-</body>
-<? include('/partial-views/layout/footer.php'); ?>
-</html>
+<? get_footer(); ?>
